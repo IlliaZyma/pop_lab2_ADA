@@ -35,7 +35,7 @@ procedure test is
       entry get_min_num(part_min_num : out Integer);
    private
       tasks_count : Integer := 0;
-      min1 : Integer := 0;
+      min1 : Integer := 1;
    end part_manager;
 
    protected body part_manager is
